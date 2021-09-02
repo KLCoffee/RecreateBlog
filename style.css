@@ -1,0 +1,31 @@
+  /* RecreateBlog exercise*/
+    
+  body {
+    /*Google Fonts provides this font*/
+    font-family: 'Lato', sans-serif;
+  }
+  #outside {
+    /*sets the style and size of page border*/
+    border: 20px #BDC3C7;
+    padding: 15px;
+    width: 80%;
+    }
+ 
+  h2 { /*Style & size of Title*/
+      letter-spacing: 3.2px;
+      font-weight: bold;
+      font-size: 48px; color: #3D3D3D
+  }
+
+  h3 { /*Style, position & size of date*/ 
+      text-align: right;
+      color: #3498DB;
+  }
+
+  p {
+      border-bottom: 5px solid #BDC3C7;
+      padding-bottom:10px
+    }
+    #another >p:nth-of-type(3) {
+      border-bottom: 15px solid #BDC3C7;padding:20px
+    }
